@@ -1,0 +1,19 @@
+{
+  "name": "emberline-compiler",
+  "version": "1.0.0",
+  "description": "A lexical language with a closure-converting compiler, verified portable bytecode and two execution engines.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": "./src/index.js",
+  "bin": {
+    "ember": "./bin/ember.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/ember.js check examples/telemetry.em",
+    "profile": "node bin/ember.js profile examples/tail.em"
+  }
+}

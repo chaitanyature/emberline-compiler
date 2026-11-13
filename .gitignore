@@ -1,0 +1,4 @@
+node_modules/
+*.embc
+*.tmp
+.DS_Store
